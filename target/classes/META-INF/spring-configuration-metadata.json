@@ -1,0 +1,30 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.imooc.utils.minio.MinioProp",
+      "name": "minio",
+      "type": "com.imooc.utils.minio.MinioProp"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.imooc.utils.minio.MinioProp",
+      "name": "minio.accesskey",
+      "description": "用户名",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.utils.minio.MinioProp",
+      "name": "minio.endpoint",
+      "description": "连接url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.utils.minio.MinioProp",
+      "name": "minio.secret-key",
+      "description": "密码",
+      "type": "java.lang.String"
+    }
+  ]
+}

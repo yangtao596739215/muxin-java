@@ -1,0 +1,7 @@
+
+minio:
+  endpoint: http://121.199.77.112:9000
+  accesskey: admin
+  secretKey: admin123456
+
+
