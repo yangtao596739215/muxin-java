@@ -19,9 +19,13 @@
 <configuration>
 
 
+
+
     <appender name="DefaultConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{yyy-MM-dd HH:mm:ss,GMT+8} %p - %m%n</pattern>
+            <!--<pattern>%d{yyy-MM-dd HH:mm:ss,GMT+8} %p - %m%n</pattern>-->
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <!--<pattern>>${CONSOLE_LOG_PATTERN}</pattern>-->
             <charset class="java.nio.charset.Charset">UTF-8</charset>
         </encoder>
     </appender>

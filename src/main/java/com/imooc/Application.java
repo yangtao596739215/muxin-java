@@ -13,7 +13,8 @@ import tk.mybatis.spring.annotation.MapperScan;
 // 扫描 所有需要的包, 包含一些自用的工具类包 所在的路径
 @ComponentScan(basePackages= {"com.imooc", "org.n3r.idworker"})
 public class Application {
-	
+
+	//往容器里面注册一个工具类
 	@Bean
 	public SpringUtil getSpingUtil() {
 		return new SpringUtil();

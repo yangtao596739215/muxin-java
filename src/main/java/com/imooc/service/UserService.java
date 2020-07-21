@@ -73,7 +73,7 @@ public interface UserService {
 	public String saveMsg(ChatMsg chatMsg);
 	
 	/**
-	 * @Description: 批量签收消息
+	 * @Description: 批量签收消息(批处理)
 	 */
 	public void updateMsgSigned(List<String> msgIdList);
 	
