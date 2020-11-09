@@ -1,7 +1,8 @@
 
 minio:
-  endpoint: http://121.199.77.112:9000
-  accesskey: admin
-  secretKey: admin123456
+  endpoint: http://119.3.183.184:9000
+  accesskey: minio
+  secretKey: miniostorage
+
 
 
