@@ -1,8 +1,8 @@
 
 minio:
-  endpoint: http://119.3.183.184:9000
-  accesskey: minio
-  secretKey: miniostorage
+  endpoint: #你文件系统的节点
+  accesskey: #账号
+  secretKey: #密码
 
 
 

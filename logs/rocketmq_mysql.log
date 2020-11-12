@@ -31695,3 +31695,50 @@ org.apache.tomcat.util.http.fileupload.FileUploadBase$FileSizeLimitExceededExcep
 2020-11-08 17:14:52 WARN - 进入写空闲...
 2020-11-08 17:14:52 INFO - 客户端传过来的包信息DataContent(action=4, chatMsg=null, extand=null)
 2020-11-08 17:14:52 INFO - 收到来自channel为[[id: 0xbecfe053, L:/0:0:0:0:0:0:0:1:8088 - R:/0:0:0:0:0:0:0:1:13648]]的心跳包...
+2020-11-12 16:13:30 INFO - Starting Application on ttlx_wangwang with PID 45916 (C:\Users\ttlx\IdeaProjects\muxin\muxin-server\target\classes started by ttlx in C:\Users\ttlx\IdeaProjects\muxin\muxin-server)
+2020-11-12 16:13:30 INFO - No active profile set, falling back to default profiles: default
+2020-11-12 16:13:30 INFO - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f5958c9: startup date [Thu Nov 12 16:13:30 CST 2020]; root of context hierarchy
+2020-11-12 16:13:31 INFO - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-11-12 16:13:31 INFO - Tomcat initialized with port(s): 8888 (http)
+2020-11-12 16:13:31 INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-12 16:13:31 INFO - Starting service [Tomcat]
+2020-11-12 16:13:31 INFO - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-11-12 16:13:31 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\ttlx\Downloads\mysql-8.0.17-winx64\bin;C:\Users\ttlx\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;C:\Users\ttlx\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\JetBrains\DataGrip 2020.2.3\bin;C:\Users\ttlx\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2020-11-12 16:13:31 INFO - Initializing Spring embedded WebApplicationContext
+2020-11-12 16:13:31 INFO - Root WebApplicationContext: initialization completed in 1272 ms
+2020-11-12 16:13:31 INFO - Servlet dispatcherServlet mapped to [/]
+2020-11-12 16:13:31 INFO - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-12 16:13:31 INFO - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-12 16:13:31 INFO - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-11-12 16:13:31 INFO - Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-12 16:13:33 INFO - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-12 16:13:33 INFO - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f5958c9: startup date [Thu Nov 12 16:13:30 CST 2020]; root of context hierarchy
+2020-11-12 16:13:33 INFO - Mapped "{[/u/test],methods=[GET]}" onto public void com.imooc.controller.UserController.test()
+2020-11-12 16:13:33 INFO - Mapped "{[/u/search],methods=[GET]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.searchUser(java.lang.String,java.lang.String) throws java.lang.Exception
+2020-11-12 16:13:33 INFO - Mapped "{[/u/getUnReadMsgList],methods=[POST]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.getUnReadMsgList(java.lang.String)
+2020-11-12 16:13:33 INFO - Mapped "{[/u/setNickname],methods=[POST]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.setNickname(com.imooc.pojo.bo.UsersBO) throws java.lang.Exception
+2020-11-12 16:13:33 INFO - Mapped "{[/u/registOrLogin],methods=[POST]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.registOrLogin(com.imooc.pojo.Users) throws java.lang.Exception
+2020-11-12 16:13:33 INFO - Mapped "{[/u/myFriends],methods=[POST]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.myFriends(java.lang.String)
+2020-11-12 16:13:33 INFO - Mapped "{[/u/addFriendRequest],methods=[GET]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.addFriendRequest(java.lang.String,java.lang.String) throws java.lang.Exception
+2020-11-12 16:13:33 INFO - Mapped "{[/u/uploadFaceBase64],methods=[POST]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.uploadFaceBase64(com.imooc.pojo.bo.UsersBO) throws java.lang.Exception
+2020-11-12 16:13:33 INFO - Mapped "{[/u/uploadFace],methods=[POST]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.uploadFace(org.springframework.web.multipart.MultipartFile,java.lang.String) throws java.lang.Exception
+2020-11-12 16:13:33 INFO - Mapped "{[/u/queryFriendRequests],methods=[GET]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.queryFriendRequests(java.lang.String)
+2020-11-12 16:13:33 INFO - Mapped "{[/u/operFriendRequest],methods=[GET]}" onto public com.imooc.utils.IMoocJSONResult com.imooc.controller.UserController.operFriendRequest(java.lang.String,java.lang.String,java.lang.Integer)
+2020-11-12 16:13:33 INFO - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-11-12 16:13:33 INFO - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-11-12 16:13:33 INFO - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-12 16:13:33 INFO - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-12 16:13:33 INFO - Registering beans for JMX exposure on startup
+2020-11-12 16:13:33 INFO - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-11-12 16:13:33 INFO - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-11-12 16:13:34 INFO - netty websocket server 启动完毕...
+2020-11-12 16:13:34 INFO - Starting ProtocolHandler ["http-nio-8888"]
+2020-11-12 16:13:34 INFO - Using a shared selector for servlet write/read
+2020-11-12 16:13:34 INFO - Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-12 16:13:34 INFO - Started Application in 4.143 seconds (JVM running for 6.283)
+2020-11-12 16:14:29 INFO - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-11-12 16:14:29 INFO - FrameworkServlet 'dispatcherServlet': initialization started
+2020-11-12 16:14:29 INFO - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2020-11-12 16:14:29 INFO - id为:demoData的用户在查找朋友:  demoData
+2020-11-12 16:14:29 INFO - DatebookHikariCP - Starting...
+2020-11-12 16:14:30 INFO - DatebookHikariCP - Start completed.
